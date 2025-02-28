@@ -1,0 +1,40 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+*.out
+
+# Go build artifacts
+/build/
+/bin/
+/dist/
+/vendor/
+
+# Go modules
+go.sum
+go.mod
+
+# IDE/editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# MacOS files
+.DS_Store
+
+# Logs and debugging
+*.log
+*.test
+*.cover
+*.prof
+
+# Temporary files
+*.tmp
+*.cache
+*.bak
